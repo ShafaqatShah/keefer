@@ -45,23 +45,30 @@
     align-items: center;
   }
 
-  .contact-center h1,
-  .contact-center p {
-    margin: 0;
+  .contact-center h1 {
+    margin-top: 7px;
     margin-left: 0%;
-  }
-
-  .top-line {
-    color: #ce3434;
-    width: auto;
-    font-weight: bold;
     font-size: 20px;
-    text-transform: uppercase;
-    text-underline-offset: 3px;
-    text-underline-position: below;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 12px;
+    color: brown;
+    font-family: arial;
+}
+  
+  .contact-center p {
+    font-size: 12px;
   }
 
-  .phone-number {
+  .contact-center hr {
+    width: 100%;
+    float: left;
+    height: 2px;
+    background: black;
+    border: none;
+}
+
+.contact-center h2 {
     font-size: 20px;
     font-weight: bold;
     width: auto;
