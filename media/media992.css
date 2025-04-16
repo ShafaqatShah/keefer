@@ -328,7 +328,7 @@ button:hover {
   }
   
   .left-t {
-    width: 100%;
+    width: 50%;
   }
   
      .left-t p {
@@ -382,10 +382,12 @@ button:hover {
     margin: 0px;
     padding-bottom: 10px;
   }
-  
+  .inner-main .blog{
+    width: 60%;
+  }
   .inner-main .blog h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 3.5vw;
+    font-size: 2.5vw;
     text-transform: uppercase;
   }
   
@@ -394,9 +396,10 @@ button:hover {
   }
   
   .inner-main .blog p {
-    font-size: 2vw;
+    font-size: 1.6vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
+    margin-bottom: 12px;
   }
   .inner-main .blog 
   {
@@ -404,10 +407,8 @@ width: 100%;
     height: auto;
   }
   .law-button1 button {
-    width: 100%;
-    height: auto;
-  
-    margin-top: 2vw;
+    width: 70%;
+    height: auto; 
     padding: 0.5vw;
     font-size: 12px;;
     background: brown;
@@ -471,11 +472,11 @@ width: 100%;
     font-size: 1.6vw;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
+    margin-bottom: 10px;
   }
   
   .law-button2 button {
     margin-right: 0vw;
-    margin-top: 2vw;
     padding: 0.5vw 0;
     font-size: 12px;
     background: brown;
@@ -503,11 +504,12 @@ width: 100%;
   }
   .inner-2 .book{
     height: auto;
+    width: 100%;
   
   }
   .book img {
     height:auto;
-    margin-top: 15px;
+    margin-top: 10vh;
     width: 100%;
   }
   
@@ -550,7 +552,8 @@ width: 100%;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding-top: 0px;
     margin-bottom: 0px;
-    font-size: 20px;
+    font-size: 12px;
+    margin-top: 10px;
   }
   
   .strong-text strong {
@@ -571,6 +574,21 @@ width: 100%;
   }
   
   .inner-3 .last-button2 {
+    /* margin-top: 2vh; */
+    /* margin-right: 10px; */
+    float: right;
+    border-top: 1px solid gray;
+    width: 90%;
+    height: auto;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    padding: 0vvh 2vh;
+    line-height: 0%;margin-left: 10%;
+}
+.inner-3 .last-button2 {
     margin-top: 2vh;
     margin-right: 10px;
     float: right;
@@ -581,7 +599,6 @@ width: 100%;
     align-items: center;
     justify-content: center;
     float: right;
-    padding: 10px 20px;
     line-height: 0%;
   }
   
