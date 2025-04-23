@@ -27,10 +27,10 @@
     margin-bottom: 0%;
     }
   .image-left {
-width: 50%;
+    width: 50%;
     display: flex;
     justify-content: center;
-    align-items: center;
+
     padding: 0%;
 
   }
@@ -52,7 +52,19 @@ width: 50%;
     margin: 0;
     margin-left: 0%;
   }
-
+  .contact-center h1
+  {
+    font-size: 1.4em;
+  }
+  .contact-center h2 {
+    font-size: 2.2em;
+    font-weight: 900;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+    font-stretch: ultra-expanded;
+    color: #333;
+    letter-spacing: 1px;
+    /* padding-right: 10px; */
+}
   .top-line {
     color: #ce3434;
     width: 100%;
@@ -102,16 +114,16 @@ margin-top: 0%;
 .navbar ul li a{
   display: block;
   color: white;
-  font-size: 13px;
+  font-size: 1em;
   letter-spacing: 1px;
   text-decoration: none;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
-    font-weight: 400;
-    padding: 16px 0; /* Add padding to make it box-like */
+    font-weight: 400; /* Add padding to make it box-like */
   display: inline-block; /* Needed for padding to work properly */
   transition: background-color 1s,
    color 0.7s;
+   padding:8px 10px ;
 }
 .navbar ul li a:hover{
   background-color: #7b7676; 
@@ -136,7 +148,6 @@ margin-top: 0%;
 
 .Experience .logopng {
   width: 100%;
-  height: auto;
   margin: 0%;
   padding: 0%;
 }
@@ -161,26 +172,28 @@ margin-top: 0%;
 .questions-box {
   background-color: #990000;
   color: #fff;
-  font-size: 15px;
-padding: 18px 40px;
+  font-size: 24px;
+  padding: 1px 15px 34px;
 }
+
 .header h2
 {
-  padding-left: 20%; 
+  padding-left: 4%; 
   margin-top: 0%;
-  font-size: 16px; 
+  font-size: 13px; 
   font-weight: 800;
   letter-spacing: 2px;
+
 }
 .highlight {
   color: #003366;
-  font-size: 25px;
+  font-size: 30px;
   margin-top: 2%;
 }
 .login 
 {
   margin:auto;
-  padding:auto;
+  padding:0px 20px 0px 20px;
 } 
 .info-text {
   margin: 0px;
@@ -214,6 +227,7 @@ padding: 18px 40px;
   padding: 10px;
   margin-top: 2px;
   border-radius: 0%;
+  width: 70%;
 }
 
 .confidential {
@@ -227,21 +241,24 @@ padding: 18px 40px;
 }
 .confidential-img
 {
-  width: 100%;
+  width: 70%;
   height: auto;
   background-size: cover;
   background-position: center;
   margin: 0%;
   padding: 0%;
 }
-.login textarea {
+.login
+{
+  padding: 0px 20px 0px 20px;
+}
+.QuestionForm textarea {
+  padding: 20px;
+  font-size: 8px;
   width: 70%;
   height: auto;
-  padding: 15px;
-  font-size: 12px;
-  margin-top: 10px;
+  margin-top: 14px;
   margin-left: 30px;
-
 }
 
 .about {
@@ -284,7 +301,7 @@ button:hover {
   
   .inner1 {
     background: rgba(0, 0, 255, 0);
-
+width: 30%;
     height: auto;
   }
   
@@ -297,12 +314,13 @@ button:hover {
     height: auto;
     border-left: 1px solid gray; 
     border-right: 1px solid gray;
-
+    width: 40%;
   }
   
   .inner3 {
     background: rgba(152, 152, 152, 0);
     height: auto;
+    width: 30%;
   }
   
   .inner1 .inner-h {
@@ -326,11 +344,6 @@ button:hover {
     width: 100%;
   
   }
-  
-  .left-t {
-    width: 100%;
-  }
-  
      .left-t p {
     font-size: 3vh;
     margin-bottom: 10px;
@@ -362,8 +375,8 @@ button:hover {
     float: right;
     background: brown;
     font-size: 10px;
-    width: 190px;
-    height: 35px;
+    width: 100%;
+    height: auto;
     color: white;
     text-transform: uppercase;
     padding: 3px 4px;
@@ -382,7 +395,10 @@ button:hover {
     margin: 0px;
     padding-bottom: 10px;
   }
-  
+  .inner-main .blog{
+    width: 59%;
+    height: auto;
+  }
   .inner-main .blog h2 {
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 3.5vw;
@@ -403,11 +419,9 @@ button:hover {
 width: 100%;
     height: auto;
   }
-  .law-button1 button {
+   .law-button1 button {
     width: 100%;
     height: auto;
-  
-    margin-top: 2vw;
     padding: 0.5vw;
     font-size: 12px;;
     background: brown;
@@ -475,7 +489,6 @@ width: 100%;
   
   .law-button2 button {
     margin-right: 0vw;
-    margin-top: 2vw;
     padding: 0.5vw 0;
     font-size: 12px;
     background: brown;
@@ -529,7 +542,7 @@ width: 100%;
   }
   
   .left-img img {
-    width: 50%;
+
     height: auto;
     /* padding-right: 30px; */
   }
@@ -542,7 +555,6 @@ width: 100%;
   }
   
   .right-img img {
-    width: 50%;
     height: auto;
   }
   
@@ -571,7 +583,6 @@ width: 100%;
   }
   
   .inner-3 .last-button2 {
-    margin-top: 2vh;
     margin-right: 10px;
     float: right;
     border-top: 1px solid gray;
@@ -601,7 +612,6 @@ width: 100%;
     margin-left: 6px;
   }
 
-
   .last-section{
     display: flex;
     flex-direction: row;
@@ -612,6 +622,7 @@ width: 100%;
     width: 25%;
     background-color: rgba(0, 128, 0, 0);
     padding: 2vw 3vw;
+    height: 100vh;
   }
   
   .box-section h1{
@@ -624,7 +635,7 @@ width: 100%;
   .box-section h1 strong{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
-    color: brown;
+    color: brown; 
   }
   
   .inner-box{
@@ -648,7 +659,7 @@ width: 100%;
   }
   
   .box-button .textt h2 {
-    font-size: 14px;
+    font-size: 0.9em;
     text-transform: uppercase;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
@@ -724,6 +735,7 @@ padding: 0%;
   
   .logo-section{
     width: 25%;
+    height: 100vh;
     background-color: rgba(0, 0, 255, 0);
     padding: 3vw 2vw;
   }
@@ -753,6 +765,7 @@ padding: 0%;
     margin-top: 15px;
     border-top: 2px solid gray;
     width: 80%;
+
   }
   .click-last-button button {
     float: right;
