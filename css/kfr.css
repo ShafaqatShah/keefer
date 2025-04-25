@@ -93,8 +93,15 @@ body {
   padding-left: 30%;
 
 }
+
+.res-icon{
+  float: right;
+  margin-left: 93%;
+  display: none;
+}
+
 .navbar ul li a{
-  display: block;
+  /* display: block; */
   color: white;
   font-size: 18px;
   letter-spacing: 1px;
@@ -395,6 +402,7 @@ button:hover {
   /* padding: 0px 0px; */
   border: none;
   margin-left: 6vw;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .button-r button .fa-solid {
@@ -442,6 +450,7 @@ button:hover {
   margin-top: 0vw;
   border: none;
   color: white;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .law-button1 .fa-solid {
@@ -510,6 +519,7 @@ button:hover {
   text-transform: uppercase;
   padding: 1.3vh 1vh;
   margin-top: 0px;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .same{
@@ -534,6 +544,7 @@ button:hover {
   color: white;
   text-transform: uppercase;
   float: inline-end;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .law-button2 .fa-solid {
@@ -619,11 +630,11 @@ button:hover {
   margin-right: 0px;
   /* font-size: 10px; */
   text-decoration: none;
-  line-height: 0%;
   background: brown;
   color: white;
   text-transform: uppercase;
-  /* padding: 1vh 1vh; */
+  padding: 1.5vh 1vh;
+  box-shadow: 0 4px 13px rgba(0, 0, 0, 0.5);
 }
 
 .last-button2 .fa-solid {
@@ -695,6 +706,7 @@ button:hover {
   height: 90px;
   background-repeat: no-repeat;
   background-color: brown;
+  background: linear-gradient(to bottom, #b30000, #490c0c);
 }
 
 .inner-box .box-button {
