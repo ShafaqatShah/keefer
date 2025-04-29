@@ -7,23 +7,25 @@
     width: 100%;
     justify-content: center;
     margin-bottom: 6px;
-  }
-  .image-left {
-    width: 50%;
-    height: 10vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 0%;
-  }
-  .logo {
-    width: 100%;
-    height: 10vh;
-  }
+    height: 60px;
+}
+
+.image-left {
+  width: 50%;
+  height: 28vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0%;
+}
+.logo {
+  width: 100%;
+  height: 28vh;
+}
   .contact-center {
     width: 50%;
     margin: 0%;
-    padding-top: 8px;
+    padding-top: 0px;
     padding-right: 5px;
     box-sizing: border-box;
     text-align: center;
@@ -32,18 +34,21 @@
     line-height: 3vh;
 }
 
-  .contact-center h1,
-  .contact-center p {
-    margin: 0;
-    margin-left: 0%;
-  }
-  .contact-center h1
-  {
-    font-size: 2vw;
-  }
-  .contact-center h2 {
-    font-size: 3vw;
-    padding-right: 3%;
+.contact-center h1, .contact-center p {
+  margin: 0;
+  margin-left: 0%;
+  font-size: 9px;
+  margin-top: 10px;
+}
+
+  .contact-center h1 {
+    font-size: 12px;
+}
+
+.contact-center h2 {
+  font-size: 20px;
+  padding-right: 0%;
+  margin-top: 10px;
 }
   
   .sub-text {
@@ -88,10 +93,10 @@
   display: none;
 }
 
-@media (max-width: 576px) {
+/* @media (max-width: 576px) { */
   .navbar {
     background-color: #8b0000;
-    height: 8vh;
+    height: 15vh;
   }
 
   .navbar::before {
@@ -295,7 +300,7 @@ button:hover {
     background: #ffffff;
     margin: 0vw;
     padding: 3vw 1.5vw;
-    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); 
+    /* box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);  */
   }
   
   .inner1 {
@@ -894,13 +899,9 @@ padding-left: 4vw;
   }
 
   .follow-button {
-    display: flex
-;
-   
+    display: flex;
     border-bottom: 2px solid gray;
-
     margin-top: 10px;
-   
     margin-right: 20%;
 }
   .follow-button h1 {
@@ -930,8 +931,6 @@ padding-left: 4vw;
 
   .icons img{
     margin: 10px;
-  } 
-
-  
+  }  
 }
-  }
+  
